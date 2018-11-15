@@ -2,7 +2,7 @@
 session_start(); 
 include_once 'controllers/config.php';
 $config = new Site();
-// echo "Session: ".$_SESSION['nombre'];
+//echo "Session: ".$_SESSION['nombre'];
 if ($_SESSION['user']!='') {
 	header('location:home.php');
 }
