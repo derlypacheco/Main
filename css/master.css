@@ -1,0 +1,25 @@
+
+.bg-dark{
+	background-color: rgb(45,45,45);
+}
+
+.cont-login{
+	max-width: 480px;
+	min-width: 280px;
+	background-color: #fff;
+	padding: 15px;
+	color: rgb(45,45,45);
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	margin-top: 45px;
+}
+
+.clear{
+	clear: both;
+	height: 15px;
+}
+
+.logo{
+	padding-bottom: 15px;
+}

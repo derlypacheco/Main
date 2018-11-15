@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Modal con Boostrap 3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+<div class="container">
+<h2>Ejemplo Modal</h2>
+<p>Lanzar in modal desde un boton usando Ajax</p>
+<button type="button" class="btn btn-success" id="btnModal">Lanzar </button>
+<div id="resultModal"></div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+    $('#btnModal').click(function() {
+      $('#btnModal').attr('disabled', true);
+      $.ajax({
+        type: 'GET',
+        url: 'cod_modal.html'
+      }).done(function(res){
+        $('#resultModal').html(res);
+        $('#modalAjax').modal('show');
+        $('#btnModal').attr('disabled', false);
+      })
+    })
+    </script>
+  </body>
+</html>
