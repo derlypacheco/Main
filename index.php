@@ -1,9 +1,8 @@
-<?php 
+<?php
+session_start(); 
 include_once 'controllers/config.php';
 $config = new Site();
-?>
-<?php
-session_start();
+// echo "Session: ".$_SESSION['nombre'];
 if ($_SESSION['user']!='') {
 	header('location:home.php');
 }
