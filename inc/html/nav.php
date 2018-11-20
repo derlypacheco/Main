@@ -6,23 +6,25 @@
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a>
-                        <i class="fas fa-home"></i>
-                        Home
+                    <a href="#">
+                    <i class="fas fa-home"></i>
+                        <span class="li-nav-left"> Home</span>
+                        <span class="li-nav-right badge badge-info">6</span>
+                        <div class="clear-only"></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fas fa-briefcase"></i>
-                        About
+                        <span class="li-nav-left"><i class="fas fa-briefcase"></i> About</span>
+                        <!-- <span class="li-nav-right badge badge-info">6</span> -->
                     </a>
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fas fa-copy"></i>
-                        Pages
+                         Pages
                     </a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                            <a href="#">Page 1</a>
+                            <a href="#"> Page 1</a>
                         </li>
                         <li>
                             <a href="#">Page 2</a>
@@ -34,18 +36,17 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fas fa-paper-plane"></i>
-                        Contact
+                        <span class="li-nav-left"><i class="fas fa-paper-plane"></i> Contact</span>
                     </a>
                 </li>
             </ul>
 
             <!-- <ul class="list-unstyled CTAs">
                 <li>
-                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+                    <a href=#" class="download">Download source</a>
                 </li>
                 <li>
-                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+                    <a href="#" class="article">Back to article</a>
                 </li>
             </ul> -->
         </nav>

@@ -1,6 +1,6 @@
 
 .bg-dark{
-	background-color: rgb(45,45,45);
+	background-color: #2e3e4e;
 }
 
 .cont-login{
@@ -8,7 +8,7 @@
 	min-width: 280px;
 	background-color: #fff;
 	padding: 15px;
-	color: rgb(45,45,45);
+	color: #2e3e4e;
 	margin-right: auto;
 	margin-left: auto;
 	height: auto;
@@ -33,9 +33,7 @@
 
 }
 
-.nav_menu{
-	/*background: #fff;*/
-}
+
 
 
 /* ============== Adicionales ============== */
@@ -101,7 +99,7 @@ span {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: rgb(45,45,45);
+    background: #2e3e4e;
     color: #fff;
     transition: all 0.3s;
 }
@@ -153,7 +151,7 @@ span {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: rgb(80,80,80);
+    background: #2a3948;
 }
 
 #sidebar .sidebar-header strong {
@@ -163,7 +161,7 @@ span {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 1px solid #2e3e4e;
 }
 
 #sidebar ul li a {
@@ -173,7 +171,7 @@ span {
 }
 
 #sidebar ul li a:hover {
-    color: rgb(45,45,45);
+    color: #2e3e4e;
     background: #fff;
 }
 
@@ -184,7 +182,7 @@ span {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: rgb(80,80,80);
+    background: #2a3948;
 }
 
 a[data-toggle="collapse"] {
@@ -202,7 +200,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: rgb(80,80,80);
+    background: #2a3948;
 }
 
 ul.CTAs {
@@ -219,12 +217,12 @@ ul.CTAs a {
 
 a.download {
     background: #fff;
-    color: rgb(45,45,45);
+    color: #2e3e4e;
 }
 
 a.article,
 a.article:hover {
-    background: rgb(80,80,80) !important;
+    background: #2a3948 !important;
     color: #fff !important;
 }
 
@@ -294,3 +292,27 @@ a.article:hover {
 /* ================ End Adicioales ====================*/
 
 
+ /* =============== Start Addons =================== */
+
+ #li-nav-right{
+     position: absolute;
+     vertical-align: middle;
+     float: right;
+     box-sizing: border-box;
+ }
+ #li-nav-left{
+     float: left;
+     padding-left: 15px;
+ }
+
+ #card-cuadro{
+     border: 0px;
+ }
+
+ #cardtitle{
+     background-color: #aaaaaa;
+     font-size: 2.6em;
+     padding-left: 15px;
+     vertical-align: middle;
+     border-bottom: 1px #646464;
+ }
