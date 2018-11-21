@@ -1,0 +1,165 @@
+ /* =============== Start Addons =================== */
+
+ .li-nav-right{
+     float: right;
+     font-size: 0.85em;
+     vertical-align: middle;
+ }
+ .card-cuadro{
+     border: 1px solid card-cuadro;
+     border-radius: 0px;
+     margin-bottom: 15px;
+ }
+
+ .cardtitle{
+     font-size: 1.1em;
+     padding-left: 15px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     vertical-align: middle;
+     border-bottom: 1px solid #e0e0e0;
+     color: #4e4e4e;
+ }
+
+ .card-body p{
+    color: #6a6a6a;
+ }
+
+ .checkbox{
+    box-sizing: border-box;
+    padding: 3px;
+ }
+
+ .check-default{
+    border: 1px solid #808080;
+ }
+
+/* The container */
+.check-custom {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check-custom input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(160, 160, 160);
+}
+
+/* On mouse-over, add a grey background color */
+.check-custom:hover input ~ .checkmark {
+    background-color: #afafaf;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check-custom input:checked ~ .checkmark {
+    background-color: rgb(2, 97, 134);
+}
+
+.check-custom input:checked ~ .checkmark-danger {
+    background-color: rgb(165, 42, 11);
+}
+
+.check-custom input:checked ~ .checkmark-warning {
+    background-color: rgb(204, 119, 7);
+}
+
+.check-custom input:checked ~ .checkmark-info {
+    background-color: rgb(7, 165, 204);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.check-custom input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.check-custom .checkmark:after {
+    left: 7.8px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* Navegador del menus */
+
+.nav_menu{
+  background-color: #fff;
+  margin-top: 0px;
+  padding: 10px;
+}
+
+.btn-collaspe{
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+/* Navegador del menus */
+
+.btn-facebook{
+  color: #fff;
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.btn-twitter{
+  color: #fff;
+  background-color: #0c85d0;
+  border-color: #0b7ec4;
+}
+
+/* ==================================  COLORES BG  ================================== */
+.blue{background-color: #5b7dff;}
+.indigo{background-color: #6610f2;}
+.purple{background-color: #6f42c1;}
+.pink{background-color: #a180da;}
+.red{background-color: #f44455;}
+.orange{background-color: #fd7e14;}
+.yellow{background-color: #fcc100;}
+.green{background-color: #5fc27e;}
+.teal{background-color: #20c997;}
+.cyan{background-color: #0cc2aa;}
+.white{background-color: #fff;}
+.gray{background-color: #6c757d;}
+.gray-{background-color:dark: #343a40;}
+.primary{background-color: #0cc2aa;}
+.secondary{background-color: #a180da;}
+.success{background-color: #5fc27e;}
+.info{background-color: #5b7dff;}
+.warning{background-color: #fcc100;}
+.danger{background-color: #f44455;}
+.light{background-color: #f8f9fa;}
+.dark{background-color: #2e3e4e;}

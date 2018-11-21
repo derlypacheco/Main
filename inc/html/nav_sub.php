@@ -4,10 +4,10 @@
 <div class="row">
     <div class="col-3">
       <div class="nav nav-pills">
-            <button type="button" id="sidebarCollapse" class="btn ">
-                <i class="fa fa-bars"></i> 
-            </button>
-          </div>
+        <button type="button" id="sidebarCollapse" class="btn btn-collaspe">
+            <i class="fa fa-bars"></i>
+        </button>
+      </div>
     </div>
     <div class="col">
       <ul class="nav nav-profile">
@@ -29,4 +29,3 @@
 <div class="clear-only"></div>
   </div>
   <p></p>
-

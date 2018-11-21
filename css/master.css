@@ -42,6 +42,7 @@
 body {
     /*font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;*/
     background: #fafafa;
+		font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
 }
 
 p {
@@ -229,10 +230,19 @@ a.article:hover {
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
+.body-content{
+	padding-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+
+}
 
 #content {
-    width: 100%;
-    padding: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-right: 0px;
     min-height: 100vh;
     transition: all 0.3s;
 }
@@ -287,32 +297,23 @@ a.article:hover {
     }
     #sidebarCollapse span {
         display: none;
+
     }
+
 }
 /* ================ End Adicioales ====================*/
 
-
- /* =============== Start Addons =================== */
-
- #li-nav-right{
-     position: absolute;
-     vertical-align: middle;
-     float: right;
-     box-sizing: border-box;
- }
- #li-nav-left{
-     float: left;
-     padding-left: 15px;
- }
-
- #card-cuadro{
-     border: 0px;
- }
-
- #cardtitle{
-     background-color: #aaaaaa;
-     font-size: 2.6em;
-     padding-left: 15px;
-     vertical-align: middle;
-     border-bottom: 1px #646464;
- }
+.footer-custom{
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #fff;
+    vertical-align: middle;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    position: fixed;
+}
