@@ -8,6 +8,18 @@
     <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore qui voluptatum excepturi molestias.
     Natus quasi quos recusandae perspiciatis ipsum. Quo possimus debitis, quam natus expedita perferendis
     optio earum beatae fugiat? </p>
+
+    <p>
+      <?php
+        // Requerimos el archivo
+        require("inc/php/functions.php");
+        // Creamos la instancia nueva
+        $mysql = new Database();
+        // Creamos la conexion nueva
+        $mysql->CreateConnection();
+       ?>
+    </p>
+
     </div>
   </div>
 </div>
